@@ -1,0 +1,21 @@
+---
+extension: css
+filter:    erb
+layout:    nil   # no layout
+
+color:
+  background:      "#FFF"
+---
+
+/**
+  Estilo de OpenSuse.org.gt
+  Por: Sebastian Oliva [http://sebastianoliva.com]
+  Version: 0.2b
+  Licencia CC-BY-SA
+*/
+
+body {
+  background-color: <%= @page.color['background'] %>;
+}
+
+/* EOF */

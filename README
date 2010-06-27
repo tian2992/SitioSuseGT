@@ -1,0 +1,8 @@
+Las plantillas de la pagina estan generadas con HAML y markdown, para crear una nueva pagina:
+
+webby create:page <nombre>
+
+luego editarla en content/<nombre>
+
+http://webby.rubyforge.org/tutorial/
+http://webby.rubyforge.org/user-manual/
